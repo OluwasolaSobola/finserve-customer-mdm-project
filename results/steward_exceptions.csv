@@ -1,0 +1,2 @@
+record_a,record_b,dob_a,dob_b,email_normalised,phone_normalised,decision,reason
+CB411,CRM410,1993-11-22,1992-11-22,sarah.green@email.com,07456789012,MANUAL_STEWARD_REVIEW,Email and phone agree but critical DOB conflicts

@@ -1,0 +1,8 @@
+source_system,source_customer_id,full_name,dob,email,phone,address,customer_status,nationality,account_number,last_updated
+CRM,CRM100,John Smith,1985-05-12,john@email.com,07123456789,"25 Queen Road, Swansea",Active,British,AC10001,2026-08-20
+Core Banking,CB550,John Andrew Smith,1985-05-12,john@email.com,07123456789,"10 King Street, Swansea, SA1 1AA",Active,British,AC10001,2025-01-04
+Mobile Banking,MB920,J. Smith,1985-05-12,JOHN@EMAIL.COM,07123-456789,,Active,British,AC10001,2026-08-18
+CRM,CRM200,Mary Jones,,mary@email.com,07234567890,"8 Castle Street, Cardiff",Active,British,AC20002,2026-08-10
+Core Banking,CB300,David Cole,1990-08-03,davidemail.com,07345678901,"14 High Street, Newport",Active,British,AC30003,2026-08-12
+CRM,CRM410,Sarah Green,1992-11-22,sarah.green@email.com,07456789012,"4 Market Road, Bristol",Active,British,AC41004,2026-08-14
+Core Banking,CB411,Sarah Green,1993-11-22,sarah.green@email.com,07456789012,"4 Market Road, Bristol",Active,British,AC41004,2026-08-15

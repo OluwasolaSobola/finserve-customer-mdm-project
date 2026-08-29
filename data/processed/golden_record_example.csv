@@ -1,0 +1,2 @@
+enterprise_customer_key,full_name,dob,email,phone,address,customer_status,nationality,account_number,steward_status
+GOLD-0001,John Andrew Smith,1985-05-12,john@email.com,07123456789,"25 Queen Road, Swansea",Active,British,AC10001,Approved - simulated

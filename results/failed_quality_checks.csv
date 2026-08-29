@@ -1,0 +1,3 @@
+source_system,source_customer_id,full_name,dob,email,phone,failed_rule
+Core Banking,CB300,David Cole,1990-08-03,davidemail.com,07345678901,Invalid email
+CRM,CRM200,Mary Jones,,mary@email.com,07234567890,Missing DOB
