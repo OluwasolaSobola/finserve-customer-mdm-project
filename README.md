@@ -78,8 +78,6 @@ finserve-customer-mdm-project/
 │   ├── survivorship.md
 │   ├── sql_walkthrough.md
 │   └── validation_results.md
-├── validation/
-│   └── run_mdm_validation.py
 └── results/
     ├── dq_summary.csv
     ├── potential_matches.csv
@@ -112,23 +110,22 @@ The walkthrough demonstrates how SQL was applied to:
 
 Tested results include **7 source records profiled, 4 potential matching record pairs, 2 records failing Data Quality checks and 1 ambiguous match requiring manual Data Steward review**.
 
-## Tested results
+## SQL validation results
 
-The matching and Data Quality logic has been executed against the synthetic source dataset.
 
-- **7** source records were profiled.
-- **1** record has a missing DOB.
-- **1** record has an invalid email structure.
-- **4** potential record pair(s) meet the multi-attribute matching threshold.
-- **1** ambiguous pair(s) are routed to manual Data Steward review because email and phone agree while DOB conflicts.
+The SQL logic demonstrates Data Quality profiling, standardisation, multi-attribute record matching and Data Steward exception identification against the synthetic customer dataset.
 
-The generated outputs are stored in `/results`, and the validation can be reproduced with:
+Based on the defined SQL rules and synthetic dataset:
 
-```bash
-python validation/run_mdm_validation.py
-```
+- **7** source records are assessed.
+- **1** record contains a missing DOB.
+- **1** record contains an invalid email structure.
+- **4** potential record pairs meet the multi-attribute matching threshold.
+- **1** ambiguous pair requires manual Data Steward review because email and phone agree while DOB conflicts.
 
-See [`documentation/validation_results.md`](documentation/validation_results.md) for the measured results and interpretation.
+The corresponding example outputs are documented in `/results`.
+
+See [`documentation/validation_results.md`](documentation/validation_results.md) for the validation results and interpretation.
 
 ## Skills demonstrated
 
