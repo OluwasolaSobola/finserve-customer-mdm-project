@@ -1,6 +1,6 @@
 # Validation Results
 
-The SQL logic was tested against the synthetic customer dataset using SQLite with a small compatibility function for `REGEXP_REPLACE`.
+The SQL queries demonstrate Data Quality profiling, data standardisation, multi-attribute record matching and Data Steward exception identification against the synthetic customer dataset. The result files in this repository document the expected outputs from these validation rules.
 
 ## Data-quality profile
 
