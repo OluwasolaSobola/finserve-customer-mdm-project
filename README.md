@@ -76,6 +76,7 @@ finserve-customer-mdm-project/
 ├── documentation/
 │   ├── mdm_rules.md
 │   ├── survivorship.md
+│   ├── sql_walkthrough.md
 │   └── validation_results.md
 ├── validation/
 │   └── run_mdm_validation.py
@@ -96,6 +97,20 @@ The SQL demonstrates:
 - identification of ambiguous matches for Data Steward review; and
 - retrieval of records failing mandatory/validity rules.
 
+### SQL walkthrough
+
+➡️ **[View the full step-by-step SQL walkthrough](documentation/sql_walkthrough.md)**
+
+The walkthrough demonstrates how SQL was applied to:
+
+- profile Data Quality issues;
+- standardise customer attributes across source systems;
+- identify potential duplicate records using multi-attribute matching;
+- detect conflicting critical identifiers;
+- route ambiguous matches to Data Steward review; and
+- support survivorship and Golden Record decisions.
+
+Tested results include **7 source records profiled, 4 potential matching record pairs, 2 records failing Data Quality checks and 1 ambiguous match requiring manual Data Steward review**.
 
 ## Tested results
 
